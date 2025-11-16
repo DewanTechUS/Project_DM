@@ -1,0 +1,17 @@
+.body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+.Grandparent {
+    background-color: rgb(243, 52, 52);
+    padding: 20px;
+}
+.Parent {
+    background-color: rgb(55, 191, 236);
+    padding: 15px;
+}
+.Child {
+    background-color: lightgreen;
+    padding: 10px;
+}
