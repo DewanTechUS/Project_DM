@@ -17,3 +17,11 @@ How to use this project.
 ## Contributors
 
 - Dewan Mahmud
+
+
+## License
+
+
+## Contact
+
+For questions or suggestions, please open an issue or contact the project maintainers.
