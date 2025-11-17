@@ -21,3 +21,19 @@ child.addEventListener('click', (e) => {
     // e.stopPropagation(); // Stop the event from bubbling up to parent and grandparent
 }); 
 
+// Example: Loop through elements
+const elements = [grandparent, parent, child];
+
+elements.forEach((element, index) => {
+    console.log(`Element ${index}:`, element);
+});
+
+// Or loop with for...of
+for (const element of elements) {
+    console.log(element);
+}
+
+// Or traditional for loop
+for (let i = 0; i < elements.length; i++) {
+    console.log(elements[i]);
+}
