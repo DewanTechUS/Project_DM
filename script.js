@@ -37,3 +37,29 @@ for (const element of elements) {
 for (let i = 0; i < elements.length; i++) {
     console.log(elements[i]);
 }
+// Array methods examples
+const numbers = [1, 2, 3, 4, 5];
+
+// map - transform each element
+const doubled = numbers.map(num => num * 2);
+console.log('Doubled:', doubled);
+
+// filter - select elements matching condition
+const evens = numbers.filter(num => num % 2 === 0);
+console.log('Evens:', evens);
+
+// reduce - combine elements into single value
+const sum = numbers.reduce((acc, num) => acc + num, 0);
+console.log('Sum:', sum);
+
+// find - get first matching element
+const firstEven = numbers.find(num => num % 2 === 0);
+console.log('First even:', firstEven);
+
+// some - check if any element matches
+const hasEven = numbers.some(num => num % 2 === 0);
+console.log('Has even:', hasEven);
+
+// every - check if all elements match
+const allPositive = numbers.every(num => num > 0);
+console.log('All positive:', allPositive);
